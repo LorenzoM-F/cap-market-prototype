@@ -17,15 +17,15 @@
 .tab {
     padding: 10px 20px;
     margin: 0 10px;
-    border: 1px solid #109de2;
+    border: 1px solid #2f70ef;
     border-radius: 20px;
     background: #fff;
-    color: #109de2;
+    color: #2f70ef;
     cursor: pointer;
 }
 
 .tab.active {
-    background: #109de2;
+    background: #2f70ef;
     color: #fff;
 }
 
@@ -69,7 +69,7 @@
 .icon {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #109de2;
+    color: #2f70ef;
 }
 
 .action-button span {
@@ -80,7 +80,7 @@
 .signin-button {
     width: 70%;
     padding: 10px 20px;
-    background: #109de2;
+    background: #2f70ef;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@
 }
 
 .signin-button:hover {
-    background: #109de2;
+    background: #2f70ef;
 }
 
 /* Scan to pay */
@@ -105,7 +105,7 @@
     font-size: 36px;
     color: #333;
     margin-bottom: 10px;
-    background-color: #109de2;
+    background-color: #2f70ef;
     width: 10%;
     border-radius: 50px;
     padding: 10px;

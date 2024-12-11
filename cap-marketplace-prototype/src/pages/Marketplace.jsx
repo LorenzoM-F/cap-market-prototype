@@ -1,8 +1,15 @@
 import React from "react";
 import "../css/Marketplace.css";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Marketplace() {
+    const navigate = useNavigate();
+
+    const navigateToOnlineStores = () => {
+        navigate("/onlineStores");
+    };
+
     return (
         <div className="marketplace-container">
             {/* Header */}
@@ -12,12 +19,12 @@ function Marketplace() {
 
             {/* Options */}
             <div className="marketplace-options">
-                <div className="option-card">
+                <div className="option-card" onClick={navigateToOnlineStores}>
                     <div className="icon-container">
                         <i className="fas fa-shopping-cart"></i>
                     </div>
                     <div className="option-content">
-                        <h3 className="option-title">Online Stores</h3>
+                        <h3 className="option-title blue">Online Stores</h3>
                         <p className="option-description">View our Business Clients’ Products</p>
                     </div>
                     <div className="badge-container">
@@ -31,7 +38,7 @@ function Marketplace() {
                         <i className="fas fa-search"></i>
                     </div>
                     <div className="option-content">
-                        <h3 className="option-title">Locate our Businesses</h3>
+                        <h3 className="option-title dark-blue">Locate our Businesses</h3>
                         <p className="option-description">
                             See fantastic products and services in your area!
                         </p>
@@ -47,7 +54,7 @@ function Marketplace() {
                         <i className="fas fa-briefcase"></i>
                     </div>
                     <div className="option-content">
-                        <h3 className="option-title">Career Portal</h3>
+                        <h3 className="option-title grey">Career Portal</h3>
                         <p className="option-description">Are you looking for a career opportunity?</p>
                     </div>
                     <div className="badge-container">

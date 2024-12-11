@@ -23,12 +23,12 @@
 }
 
 .nav-item i {
-    font-size: 20px; /* Icon size */
+    font-size: 30px; /* Icon size */
     margin-bottom: 5px; /* Space between icon and text */
 }
 
 .nav-item.active {
-    color: #007bff; /* Highlight active tab */
+    color: #2f70ef; /* Highlight active tab */
 }
 
 .new-badge2 {
