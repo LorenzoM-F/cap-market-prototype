@@ -54,7 +54,7 @@
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
-    width: 120px;
+    width: 170px;
     text-align: center;
     color: #414141;
     cursor: pointer;
@@ -78,7 +78,7 @@
 
 /* Sign-in button */
 .signin-button {
-    width: 70%;
+    width: 90%;
     padding: 10px 20px;
     background: #2f70ef;
     color: #fff;
@@ -97,7 +97,7 @@
 .scan-to-pay {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .qr-icon {
