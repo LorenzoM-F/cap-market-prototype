@@ -1,0 +1,44 @@
+.bottom-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    position: relative;
+}
+
+.nav-item i {
+    font-size: 20px; /* Icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.nav-item.active {
+    color: #007bff; /* Highlight active tab */
+}
+
+.new-badge2 {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    background-color: #a0202d;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 10px;
+}

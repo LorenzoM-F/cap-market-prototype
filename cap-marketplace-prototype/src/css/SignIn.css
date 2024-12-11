@@ -1,0 +1,116 @@
+/* Container styling */
+.signin-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Header tabs */
+.header-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #109de2;
+    border-radius: 20px;
+    background: #fff;
+    color: #109de2;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #109de2;
+    color: #fff;
+}
+
+/* Hello text */
+.hello-text {
+    color: #b53844;
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Action buttons */
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    color: #414141;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.action-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #109de2;
+}
+
+.action-button span {
+    font-size: 14px;
+}
+
+/* Sign-in button */
+.signin-button {
+    width: 70%;
+    padding: 10px 20px;
+    background: #109de2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.signin-button:hover {
+    background: #109de2;
+}
+
+/* Scan to pay */
+.scan-to-pay {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.qr-icon {
+
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: #109de2;
+    width: 10%;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.fa-qrcode {
+    color: white;
+}
