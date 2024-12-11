@@ -93,8 +93,9 @@
 
 .option-description {
     font-size: 14px;
-    color: #6c757d;
+    color: #535252;
     margin: 0;
+    font-weight: lighter;
 }
 
 .badge-container {

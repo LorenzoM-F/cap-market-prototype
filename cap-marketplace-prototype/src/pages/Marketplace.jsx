@@ -10,8 +10,23 @@ function Marketplace() {
         navigate("/onlineStores");
     };
 
+    const navigateToStoreLocator = () => {
+        navigate("/storeLocator");
+    };
+
+    const navigateToCareerPortal = () => {
+        navigate("/careerPortal");
+    };
+
+    const handleSignOut = () => {
+        navigate("/");
+    };
+
     return (
         <div className="marketplace-container">
+            <button className="back-button" onClick={handleSignOut}>
+                <span>Sign out</span>
+            </button>
             {/* Header */}
             <div className="marketplace-header">
                 <h1>Marketplace</h1>
@@ -33,7 +48,7 @@ function Marketplace() {
                     </div>
                 </div>
 
-                <div className="option-card">
+                <div className="option-card" onClick={navigateToStoreLocator}>
                     <div className="icon-container2">
                         <i className="fas fa-search"></i>
                     </div>
@@ -49,7 +64,7 @@ function Marketplace() {
                     </div>
                 </div>
 
-                <div className="option-card">
+                <div className="option-card" onClick={navigateToCareerPortal}>
                     <div className="icon-container3">
                         <i className="fas fa-briefcase"></i>
                     </div>

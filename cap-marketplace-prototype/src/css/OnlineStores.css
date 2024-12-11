@@ -46,3 +46,7 @@
 .back-button i {
     margin-right: 8px; /* Adds space between the icon and the text */
 }
+
+.back-button span {
+    font-size: medium; /* Adds space between the icon and the text */
+}
