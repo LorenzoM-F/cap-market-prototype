@@ -6,6 +6,7 @@ import Marketplace from './pages/Marketplace';
 import OnlineStores from './pages/OnlineStores';
 import StoreLocator from './pages/StoreLocator';
 import CareerPortal from './pages/CareerPortal';
+import AllBusinesses from './pages/AllBusinesses';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/onlineStores" exact element={<OnlineStores />} />
           <Route path="/storeLocator" exact element={<StoreLocator />} />
           <Route path="/careerPortal" exact element={<CareerPortal />} />
+          <Route path="/allBusinesses" exact element={<AllBusinesses />} />
       </Routes>
     </BrowserRouter>
   )

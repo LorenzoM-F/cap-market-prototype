@@ -37,7 +37,7 @@ function SignIn() {
                     <i className="fas fa-link icon"></i>
                     <span>Pay me</span>
                 </button>
-                <button className="action-button">
+                <button className="action-button" onClick={handleSignIn}>
                     <i className="fas fa-shopping-cart icon"></i>
                     <span>Marketplace</span>
                 </button>

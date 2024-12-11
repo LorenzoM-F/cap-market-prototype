@@ -10,6 +10,10 @@ function OnlineStores() {
         navigate("/marketplace"); // Navigate to the marketplace route
     };
 
+    const navigateToAllBusinesses = () => {
+        navigate("/allBusinesses");
+    };
+
     return (
         <div className="marketplace-container">
             {/* Back Button */}
@@ -32,7 +36,7 @@ function OnlineStores() {
 
             {/* Options */}
             <div className="marketplace-options">
-                <div className="option-card">
+                <div className="option-card" onClick={navigateToAllBusinesses}>
                     <div className="icon-container4">
                         <i className="fas fa-book"></i>
                     </div>
