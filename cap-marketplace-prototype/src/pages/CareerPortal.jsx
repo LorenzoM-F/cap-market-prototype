@@ -21,6 +21,14 @@ function CareerPortal() {
             <div className="marketplace-header">
                 <h1>Career Portal</h1>
             </div>
+            <div className="searchbar">
+                <span>Search for available jobs: </span>
+                <input
+                    type="text"
+                    placeholder="search for available jobs..."
+                    className="search-input"
+                />
+            </div>
 
             {/* Options */}
             <div className="marketplace-options">

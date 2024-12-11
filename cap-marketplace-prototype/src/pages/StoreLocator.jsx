@@ -21,6 +21,14 @@ function StoreLocator() {
             <div className="marketplace-header">
                 <h1>Store Locator</h1>
             </div>
+            <div className="searchbar">
+                <span>Search for stores: </span>
+                <input
+                    type="text"
+                    placeholder="search for stores..."
+                    className="search-input"
+                />
+            </div>
 
             {/* Options */}
             <div className="marketplace-options">

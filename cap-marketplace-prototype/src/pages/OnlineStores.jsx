@@ -21,6 +21,14 @@ function OnlineStores() {
             <div className="marketplace-header">
                 <h1>Online Stores</h1>
             </div>
+            <div className="searchbar">
+                <span>Search for products and services: </span>
+                <input
+                    type="text"
+                    placeholder="search for products and services..."
+                    className="search-input"
+                />
+            </div>
 
             {/* Options */}
             <div className="marketplace-options">
